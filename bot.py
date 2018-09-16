@@ -1,13 +1,6 @@
 import telebot
 from telebot import apihelper
 
-ip = '37.1.192.213'
-port = '443'
-
-apihelper.proxy = {
-  'https': 'socks5://{}:{}'.format(ip,port)
-}
-
 #main variables
 TOKEN = "624798015:AAFvK2W7CkjEMj56ZVB6c7bYcPLWaDff12o"
 bot = telebot.TeleBot(TOKEN)
