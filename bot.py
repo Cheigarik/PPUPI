@@ -16,7 +16,7 @@ def text_handler(message):
     text = message.text.lower()
     chat_id = message.chat.id
     if text == "привет":
-        bot.send_message(chat_id, 'Привет')
+        bot.send_message(chat_id, 'Привет Garik')
     else:
         bot.send_message(chat_id, 'Простите, я вас не понял :(')
 bot.polling()
